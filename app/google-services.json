@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1001567240437",
+    "firebase_url": "https://projeto2bimestre-c0558-default-rtdb.firebaseio.com",
+    "project_id": "projeto2bimestre-c0558",
+    "storage_bucket": "projeto2bimestre-c0558.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001567240437:android:6bd4ff70ac908614ab05bc",
+        "android_client_info": {
+          "package_name": "com.example.projeto2bimestre"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2g6GQ_bu83gUTOesswr6UDACyRoy_vHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
