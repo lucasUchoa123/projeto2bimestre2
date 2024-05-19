@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnSalvarPerfil = findViewById<Button>(R.id.btnSalvarPerfil)
         btnSalvarPerfil.setOnClickListener {
-            saveProfile()
+            salvarPerfil()
         }
 
         val btnLogin = findViewById<Button>(R.id.btnLogin)
@@ -58,12 +58,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
-
+        setupAlarm()
 
     }
 
 
-    private fun saveProfile() {
+    private fun salvarPerfil() {
         val nome = nomeEditText.text.toString()
         val senha = senhaEditText.text.toString()
         val idade = idadeEditText.text.toString()
